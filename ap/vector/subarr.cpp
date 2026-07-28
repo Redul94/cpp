@@ -12,7 +12,7 @@ int main(){
     for(int st=0;st<sz;st++){
         for(int ed=st;ed<sz;ed++){
             for(int i=st;i<=ed;i++){
-                cout << vec[i] ;
+                cout << vec[i] << ',';
             }
             cout << ' ';
         }
